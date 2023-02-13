@@ -1,0 +1,118 @@
+body {
+    --bgcolor:rgb(48, 48, 48);
+    background-color: var(--bgcolor);
+    color: rgb(225, 225, 225);
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    font-size: 1.25em;
+}
+header{
+    background: rgb(34, 34, 34);
+    padding-bottom: 28px;
+}
+header img{
+    width: 100%;
+    height: 300px;
+}
+#home-title{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+#columns{
+    display: flex;
+}
+#col1{
+    width: 25%;
+    font-size: 1.25em;
+}
+#col1 p{
+    font-weight:650;
+    font-size: 115%;
+}
+#col2{
+    width: 70%;
+}
+a, a:visited{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+#pro-links a:hover{
+    background-color: rgb(225, 225, 225);
+    color: rgb(34, 34, 34);
+}
+#pro-links {
+    list-style: none;
+}
+#title {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
+#nav-bar a:visited{
+    color: antiquewhite;
+}
+#hid {
+    position: absolute;
+    top: 150px;
+    left: 1650px;
+    height: 25px;
+    width: 25px;
+}
+#hid:hover{
+    background-color: rgba(255, 0, 0, 150);
+    cursor: pointer;
+}
+#drop-content{
+    display: none;
+    background-color: rgb(63, 63, 63);
+    max-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-size: 0.8em;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+}
+#drop-content a{
+    color: white;
+    padding: 12px 16px;
+}
+#drop-down:hover #drop-content{
+    display: block;
+}
+#drop-down{
+    position: relative;
+    display: inline-block;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.conArt{
+    width: 46%;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    margin: 8px 2px;
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 4px;
+}
+.conArt img{
+    width: 90%;
+}
+footer, .foot-p{
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    justify-content: space-around;
+}

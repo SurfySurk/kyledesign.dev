@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="game.css">
+        <script src="game.js"></script>
+        <title>Game Attempt</title>
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                <span>Kyle's Personal Project</span>
+            </div>
+            <img src="images/capybanner.jpg" alt="">
+            <nav id="nav-bar">
+                <p><a href="index.html">Home</a></p>
+                <div id="drop-down">
+                    <p><a href="#" id="drplink">My Work</a></p>
+                    <div id="drop-content">
+                        <a href="game.html">Game</a>
+                        <!-- Hidden since there's nothing to go here -->
+                        <!-- <a href="#">Pro2</a> -->
+                        <!-- <a href="#">Pro3</a> -->
+                    </div>
+                </div>
+                <p><a href="gallery.html">Gallery</a></p>
+                <p><a href="#">Contact</a></p>
+            </nav>
+        </header>
+        <div class="head">
+            <h1>Click the Button!</h1>
+            <div id="Buttons">
+                <img src="images/HAND.png" width="85" height="85" style="margin-bottom:17px ;" onclick="scorePlus1()">
+                <img src="images/UPGRADE.png" width="300" onclick="upgrade()">
+                <br>
+                <button id="clickTxt" onclick="addClicker()"> Buy clicker for 15 score</button>
+                <button id="clickDblTxt" onclick="dblClick()">Double clicker power for 50 score</button>
+            </div>
+        </div>
+        <div id="textElements">
+            <div id="scoreCount">
+                <h2>Score</h2>
+                <h4 id="score"  title="Score Amount">0</h4>
+            </div>
+            <div id="upgrdCost">
+                <h2>Upgrade Cost</h2>
+                <h4 id="clickAmnt" title="Upgrade Cost">20</h4>
+            </div>
+            <div id="clickerAmntDiv">
+                <h2>Score Per Second</h2>
+                <h4 id="clickerAmnt" title="Clicker Amount">0</h4>
+            </div>
+            <div id="back">
+                <!-- <br> -->
+                <button onclick="document.location='index.html'">Back to Home</button>
+            </div>
+        </div>
+        <footer>
+            <p class="foot-p"><a href="index.html">Home</a></p>
+            <p class="foot-p"><a href="work.html">My Work</a></p>
+            <p class="foot-p"><a href="gallery.html">Gallery</a></p>
+            <p class="foot-p"><a href="contact.html">Contact</a></p>
+            <h6>I hereby decree that all content published in this site is made by me, Kyle. Rights reserved</h6>
+        </footer>
+    </body>
+</html>
